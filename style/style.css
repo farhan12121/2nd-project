@@ -1,0 +1,45 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    
+}
+.hero h1{ 
+    color: rgb(24, 219, 245);
+    font-size: 100px;
+    text-align: center;
+    padding: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 5%;
+    letter-spacing: 5px;
+
+}
+.artical, .type{
+    width: 80%;
+    margin: 60px;
+    padding: 30px;
+    background: linear-gradient(75deg, blue ,pink);
+}
+.artical h2, .type h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.cow {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .cow div img{
+        width: 300px; height: 400px;
+    }
